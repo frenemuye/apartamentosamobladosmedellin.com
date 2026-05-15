@@ -12,7 +12,7 @@
 
     <meta property="og:title" content="Apartamentos Amoblados en Medellín - Reserva Fácil y Rápida">
     <meta property="og:description"
-        content="Disfruta de apartamentos amoblados en Medellín. Ubicaciones cerca de los principales sitios turísticos y con todas las comodidades.">
+        content="Disfruta de apartamentos amoblados en Medellín. Ubicaciones cerca de los principales sitios turísticos and con todas las comodidades.">
     <meta property="og:image" content="https://placehold.co/1200x630/007bff/ffffff?text=Apartamentos+Medellin">
     <meta property="og:url" content="https://apartamentosamobladosmedellin.com">
     <meta property="og:type" content="website">
@@ -49,7 +49,6 @@
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            /* Parallax effect */
         }
 
         /* Smooth scrolling for anchor links */
@@ -64,31 +63,23 @@
             right: 20px;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 12px;
             z-index: 1000;
         }
 
         .floating-buttons a {
-            background-color: #25D366;
-            /* WhatsApp green */
-            color: white;
             border-radius: 9999px;
-            /* Full rounded */
-            padding: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s ease-in-out;
+            padding: 14px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease-in-out;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         .floating-buttons a:hover {
-            transform: scale(1.1);
-        }
-
-        .floating-buttons .home-button {
-            background-color: #4A90E2;
-            /* Blue for home */
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
         }
     </style>
 </head>
@@ -150,67 +141,48 @@
         <div class="container mx-auto px-4">
             <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Nuestros Servicios Destacados</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Servicio 1: Comodidad Total -->
-                <div
-                    class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center text-center border border-gray-200">
+                <!-- Servicio 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center text-center border border-gray-200">
                     <div class="text-blue-600 mb-4">
-                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m-1 4h1m8-16v12m0 0v8a2 2 0 01-2 2H7a2 2 0 01-2-2v-8m0 0H5m14 0h-2M9 11h1m-1 4h1m-1 4h1">
-                            </path>
+                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m-1 4h1m8-16v12m0 0v8a2 2 0 01-2 2H7a2 2 0 01-2-2v-8m0 0H5m14 0h-2M9 11h1m-1 4h1m-1 4h1"></path>
                         </svg>
                     </div>
                     <h3 class="text-2xl font-semibold mb-3 text-gray-900">Comodidad Total</h3>
-                    <p class="text-gray-600">Apartamentos completamente equipados con cocina, lavandería y áreas de
-                        estar para tu conveniencia.</p>
+                    <p class="text-gray-600">Apartamentos completamente equipados con cocina, lavandería y áreas de estar para tu conveniencia.</p>
                 </div>
 
-                <!-- Servicio 2: Ubicación Privilegiada -->
-                <div
-                    class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center text-center border border-gray-200">
+                <!-- Servicio 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center text-center border border-gray-200">
                     <div class="text-blue-600 mb-4">
-                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657m11.314 0A8.001 8.001 0 0112 20c-2.071 0-4.071-.781-5.586-2.296m11.314 0L22 10h-5.586m-11.314 0L2 10h5.586m11.314 0a8.001 8.001 0 00-11.314 0">
-                            </path>
+                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657m11.314 0A8.001 8.001 0 0112 20c-2.071 0-4.071-.781-5.586-2.296m11.314 0L22 10h-5.586m-11.314 0L2 10h5.586m11.314 0a8.001 8.001 0 00-11.314 0"></path>
                         </svg>
                     </div>
                     <h3 class="text-2xl font-semibold mb-3 text-gray-900">Ubicación Privilegiada</h3>
-                    <p class="text-gray-600">Cerca de atracciones turísticas, centros de negocios y transporte público
-                        en Medellín e Itagüí.</p>
+                    <p class="text-gray-600">Cerca de atracciones turísticas, centros de negocios y transporte público en Medellín e Itagüí.</p>
                 </div>
 
-                <!-- Servicio 3: Atención Personalizada -->
-                <div
-                    class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center text-center border border-gray-200">
+                <!-- Servicio 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center text-center border border-gray-200">
                     <div class="text-blue-600 mb-4">
-                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M18 10a6 6 0 00-12 0v5a2 2 0 002 2h8a2 2 0 002-2v-5zm-6 9v2m0 0H9m3 0h3"></path>
+                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 10a6 6 0 00-12 0v5a2 2 0 002 2h8a2 2 0 002-2v-5zm-6 9v2m0 0H9m3 0h3"></path>
                         </svg>
                     </div>
                     <h3 class="text-2xl font-semibold mb-3 text-gray-900">Atención Personalizada</h3>
-                    <p class="text-gray-600">Soporte 24/7 y recomendaciones locales para una estancia sin
-                        preocupaciones.</p>
+                    <p class="text-gray-600">Soporte 24/7 y recomendaciones locales para una estancia sin preocupaciones.</p>
                 </div>
 
-                <!-- Servicio 4: Estadías Flexibles -->
-                <div
-                    class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center text-center border border-gray-200">
+                <!-- Servicio 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center text-center border border-gray-200">
                     <div class="text-blue-600 mb-4">
-                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
-                            </path>
+                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                         </svg>
                     </div>
                     <h3 class="text-2xl font-semibold mb-3 text-gray-900">Estadías Flexibles</h3>
-                    <p class="text-gray-600">Opciones de alquiler por días, semanas o meses, adaptadas a tus
-                        necesidades.</p>
+                    <p class="text-gray-600">Opciones de alquiler por días, semanas o meses, adaptadas a tus necesidades.</p>
                 </div>
             </div>
         </div>
@@ -220,51 +192,17 @@
     <section id="galeria" class="py-16 bg-gray-100">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Nuestra Galería de Apartamentos</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Apartamento 1: Itagüí -->
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <img src="https://placehold.co/600x400/FF5733/ffffff?text=Apartamento+en+Medellín+e+Itagui"
-                        alt="Apartamento en Itagüí" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-semibold mb-2 text-gray-900">Amoblados Medellín e Itagui</h3>
-                        <p class="text-gray-600 mb-4">Disfruta de la comodidad y el estilo en este hermoso amoblado con
-                            todas las amenidades, situados en Medellín poblado, centro y en itagui Santa María.</p>
-                        <a href="https://suamoblado.com/index.php#verCatalogo"
-                            class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300">
-                            Ver Detalles
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Apartamento 2: Apartaestudio Medellín -->
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <img src="https://placehold.co/600x400/33FF57/ffffff?text=Apartaestudio+en+Medellin"
-                        alt="Apartaestudio en Medellín" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-semibold mb-2 text-gray-900">Apartaestudio Acogedor en Medellín</h3>
-                        <p class="text-gray-600 mb-4">Ideal para viajeros solitarios o parejas, cerca de las principales
-                            atracciones.</p>
-                        <a href="https://apartamentoamobladomedellin.com.co"
-                            class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300">
-                            Ver Detalles
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Apartamento 3: Apartamento Familiar Medellín -->
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                    <img src="https://placehold.co/600x400/3357FF/ffffff?text=Muebles+y+Electrodomesticos"
-                        alt="Apartamento familiar en Medellín" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-2xl font-semibold mb-2 text-gray-900">Muebles y Electrodomésticos</h3>
-                        <p class="text-gray-600 mb-4">Aprovecha la oferta de muebles de segunda mano y algunas cositas
-                            nuevas, vamos renovando a medida que pasa el tiempo.</p>
-                        <a href="https://suamoblado.com/fl_v2"
-                            class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300">
-                            Ver Detalles
-                        </a>
-                    </div>
-                </div>
+            
+            <!-- Contenedor del Iframe con altura controlada dinámicamente por JS -->
+            <div class="w-full bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <iframe 
+                    id="catalogo-iframe"
+                    src="https://suamoblado.com/embed/apartamentos.php"
+                    style="width: 100%; border: none; min-height: 800px; overflow: hidden;"
+                    loading="lazy"
+                    scrolling="no"
+                    title="Apartamentos amoblados Medellín">
+                </iframe>
             </div>
         </div>
     </section>
@@ -304,8 +242,7 @@
                     class="hidden bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg relative mt-6"
                     role="alert">
                     <strong class="font-bold">¡Éxito!</strong>
-                    <span class="block sm:inline">Tu mensaje fue enviado exitosamente. Nos pondremos en contacto pronto.
-                        Para más información visita nuestro WhatsApp.</span>
+                    <span class="block sm:inline">Tu mensaje fue enviado exitosamente. Nos pondremos en contacto pronto. Para más información visita nuestro WhatsApp.</span>
                 </div>
 
                 <!-- Mensaje de error -->
@@ -313,8 +250,7 @@
                     class="hidden bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg relative mt-6"
                     role="alert">
                     <strong class="font-bold">¡Error!</strong>
-                    <span class="block sm:inline">Hubo un error al enviar el mensaje. Por favor, inténtalo de
-                        nuevo.</span>
+                    <span class="block sm:inline">Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.</span>
                 </div>
             </div>
         </div>
@@ -323,7 +259,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8 text-center rounded-t-lg">
         <div class="container mx-auto px-4">
-            <p class="mb-4">&copy; 2024 Amoblados Medellín. Todos los derechos reservados.
+            <p class="mb-4">&copy; 2026 Amoblados Medellín. Todos los derechos reservados.
                 <br>
                 <small class="d-block mt-1" style="font-size: 0.7rem; opacity: 0.5;">
                     Desarrollado por <a href="https://suamoblado.com/portafolio" target="_blank"
@@ -345,12 +281,11 @@
                             clip-rule="evenodd" />
                     </svg>
                 </a>
-
             </div>
 
             <div class="container mx-auto px-4">
                 <div class="flex justify-center space-x-6">
-                    <p class="mt-4 text-gray-400 text-sm">
+                    <div class="mt-4 text-gray-400 text-sm">
                         <!-- Default Statcounter code for 5.AptsAmosMed.comhttps://apartamentosamobladosmedellin.com -->
                         <script type="text/javascript">
                             var sc_project = 13072335;
@@ -368,26 +303,24 @@
                                         referrerPolicy="no-referrer-when-downgrade"></a></div>
                         </noscript>
                         <!-- End of Statcounter Code -->
-                    </p>
+                    </div>
                 </div>
-
             </div>
-
         </div>
     </footer>
 
     <!-- Floating Buttons -->
     <div class="floating-buttons">
+        <!-- WhatsApp Button -->
         <a href="https://api.whatsapp.com/send/?phone=573117450745&text=Hola%2C+estoy+interesado+en+los+apartamentos+amoblados+en+Medell%C3%ADn.&type=phone_number&app_absent=0"
-            target="_blank" title="WhatsApp">
+            target="_blank" title="WhatsApp" class="bg-[#25D366]">
             <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="w-8 h-8">
         </a>
-        <a href="#hero" class="home-button" title="Inicio">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2 2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
-                </path>
+        
+        <!-- Icono de flecha arriba modernizado -->
+        <a href="#hero" title="Inicio" class="bg-blue-600 text-white hover:bg-blue-700">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18"></path>
             </svg>
         </a>
     </div>
@@ -418,24 +351,34 @@
         const errorMessage = document.getElementById('errorMessage');
 
         form.addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent actual form submission
+            event.preventDefault();
 
-            // Hide any previous messages
             successMessage.classList.add('hidden');
             errorMessage.classList.add('hidden');
 
-            // Simulate a submission process (e.g., an API call)
             setTimeout(() => {
-                const isSuccessful = true; // Change to `false` to test the error message
+                const isSuccessful = true;
 
                 if (isSuccessful) {
-                    successMessage.classList.remove('hidden'); // Show success message
-                    form.reset(); // Clear form fields
+                    successMessage.classList.remove('hidden');
+                    form.reset();
                 } else {
-                    errorMessage.classList.remove('hidden'); // Show error message
+                    errorMessage.classList.remove('hidden');
                 }
-            }, 1000); // Simulate a 1-second delay
+            }, 1000);
         });
+
+        // Escucha los mensajes enviados desde apartamentos.php para ajustar la altura de manera fluida
+        window.addEventListener('message', function (e) {
+            // Validamos que el mensaje venga de tu dominio principal por seguridad
+            if (e.origin === "https://suamoblado.com") {
+                const iframe = document.getElementById('catalogo-iframe');
+                if (iframe && e.data.height) {
+                    // Se suma un pequeño margen de seguridad para evitar saltos de scroll
+                    iframe.style.height = (e.data.height + 40) + 'px';
+                }
+            }
+        }, false);
     </script>
 </body>
 
